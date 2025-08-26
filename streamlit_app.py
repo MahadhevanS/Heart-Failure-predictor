@@ -70,10 +70,11 @@ def cardio_vascular():
 
     # Use columns to center the input form
     center_col_padding, main_col, center_col_padding2 = st.columns([1,500,1])
-
+    
     with main_col:
+        st.title("Heart Failure Predictor")
         st.markdown("<h2 style='text-align: left;'>Please provide the following information:</h2>", unsafe_allow_html=True)
-
+        
         col1, col2, col3, col4, col5, col6 = st.columns(6)
 
         with col1:
